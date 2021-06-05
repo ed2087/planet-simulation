@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 100%;
+    min-height: 100%;
+    overflow: auto;  
+    display: block; 
+}
+
+li{
+    list-style: none;
+}
+
+#canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+    #wrap{
+        position: fixed;
+        left: 0;
+        top: 0;
+        border: solid 4px #2A2A29;
+        min-width: 332px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 10px;   
+    }
+    #wrap p{
+        padding: 5px;
+        margin: 5px;
+    }
+    .list{
+        border: solid 2px smoke;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-height: 300px;
+        overflow: auto;
+    }
+        .list li{
+            margin: 10px 20px;
+            color: rgb(53, 235, 68);
+            border: solid 1px white;
+            padding: 10px;
+        }
